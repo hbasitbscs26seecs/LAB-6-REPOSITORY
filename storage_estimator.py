@@ -7,5 +7,6 @@ def main():
     size_mb = float(input("Average size of one file (MB): "))
     total_mb = num_files * size_mb
     print("Total storage needed:", total_mb, "MB")
+    print("Hello, this is a storage estimator program.")
 
 main()
